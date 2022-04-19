@@ -1,0 +1,90 @@
+body {
+    background-color:whitesmoke;
+}
+.container {
+    position:absolute;
+    top:25%;
+    left:30%;
+  }
+  .colors {
+    display:flex;
+    flex-direction:column;
+    border:.1em solid black;
+    height:15em;
+    width:30em;
+  }
+  .blue {
+    background-color:rgb(0,56,168);
+    width:30em;
+    height:calc(15em/2);
+  }
+  .red {
+    background-color:rgb(206,17,38);
+    width:30em;
+    height:calc(15em/2);
+  }
+  .white {
+    position:absolute;
+    top:.1em;
+    left:.09em;
+    border-left:calc(30em/2) solid white;
+    border-top:7.5em solid transparent;
+    border-bottom:7.5em solid transparent;
+  }
+  .sun {
+    position:absolute;
+    top:5em;
+    left:3em;
+    background-color:rgb(252,209,22);
+    height:5em;
+    width:5em;
+    border-radius:50%;
+    box-shadow: 1px 1px 5px 1px rgb(252,209,22);
+  }
+  .ray1 {
+    position:absolute;
+    top:5em;
+    left:3em;
+    background-color:rgba(252,209,22,.4);
+    height:5em;
+    width:5em;
+    transform:rotate(135deg);
+  }
+  .ray2 {
+    position:absolute;
+    top:5em;
+    left:3em;
+    background-color:rgba(252,209,22,.4);
+    height:5em;
+    width:5em;
+  }
+  .s1 {
+    position:absolute;
+    top:1.4em;
+    left:.8em;
+    background-color:rgb(252,209,22);
+    height:1em;
+    width:1em;
+    transform:rotate(135deg);
+    box-shadow: 1px 1px 5px 1px rgb(252,209,22);
+  }
+  .s2 {
+    position:absolute;
+    top:12.7em;
+    left:.8em;
+    background-color:rgb(252,209,22);
+    height:1em;
+    width:1em;
+    transform:rotate(135deg);
+    box-shadow: 1px 1px 5px 1px rgb(252,209,22);
+  }
+  .s3 {
+    position:absolute;
+    top:7.1em;
+    left:12em;
+    background-color:rgb(252,209,22);
+    height:1em;
+    width:1em;
+    transform:rotate(135deg);
+    box-shadow: 1px 1px 5px 1px rgb(252,209,22);
+  }
